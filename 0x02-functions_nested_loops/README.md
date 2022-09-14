@@ -1,34 +1,35 @@
-0x02. C - Functions, nested loops
-Description
-What you should learn from this project:
-
-What are nested loops and how to use them
-What is a function and how do you use functions
-What is the difference between a declaration and a definition of a function
-What is a prototype
-Scope of variables
-What are the gcc flags -Wall -Werror -pedantic -Wextra
-What are header files and how to to use them with #include
-0. _putchar
-Write a program that prints Holberton, followed by a new line.
-1. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
-Write a function that prints the alphabet, in lowercase, followed by a new line.
-2. 10 x alphabet
-Write a function that prints 10 times the alphabet, in lowercase, followed by a new line.
-3. islower
-Write a function that checks for lowercase character.
-4. isalpha
-Write a function that checks for alphabetic character.
-5. Sign
-Write a function that prints the sign of a number.
-6. There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you
-Write a function that computes the absolute value of an integer.
-7. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important
-Write a function that prints the last digit of a number.
-8. I'm federal agent Jack Bauer, and today is the longest day of my life
-Write a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
-9. Learn your times table
-Write a function that prints the 9 times table, starting with 0.
-10. a + b
-Write a function that adds two integers and returns the result.
-11. Holberton School, 98 Battery Street, San Francisco CA 94111
+0-holberton.c
+Prints ``Holberton`` followed by a new line, and returns 0.
+1-alphabet.c
+Prints the lowercase letters of the alphabet followed by a new line.
+2-print_alphabet_x10.c
+Prints the alphabet ten times, using ``_putchar`` only twice.
+3-islower.c
+Checks for a lowercase character. Recreation of ``islower``
+4-isalpha.c
+Checks for an alphabetic character. Recreation of ``isalpha``
+5-sign.c
+Prints the sign of a number
+6-abs.c
+Computes the absolute value of an integer
+7-print_last_digit.c
+Prints the last digit of a number
+8-24_hours.c
+Prints all times from 00:00 to 23:59
+9-times_table.c
+Prints the 9 times table, starting with zero
+10-add.c
+Adds 2 integers and returns the result
+11-print_to_98.c
+Prints all numbers from n to 98
+100-times_table.c
+Prints the n times table, starting with zero
+101-natural.c
+Computes and prints the sum of all the multiples of 3 or 5 below 1024
+102-fibonacci.c
+Prints the first 50 Fibonacci numbers starting with 1 and 2
+103-fibonacci.c
+Computes and prints the sum of all even Fibonacci numbers under 4 million.
+104-fibonacci.c
+Computes and prints the first 98 Fibonacci numbers
+105-test.c
